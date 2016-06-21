@@ -14,3 +14,6 @@
 
 **.orig
 rerun.txt
+
+Gemfile.lock
+material_icons-rails-*.gem
