@@ -14,7 +14,7 @@
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 18px;
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -25,14 +25,21 @@
   white-space: nowrap;
   direction: ltr;
 
-  /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+.material-icons-stack {
+  position: relative;
+}
+
+.material-icons-stack .material-icons {
+  position: absolute;
+  left: 0;
+}
+
+.material-icons-stack .material-icons:first-child {
+  position: relative;
 }

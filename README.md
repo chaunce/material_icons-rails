@@ -19,3 +19,7 @@ use a form helper in a view
     material_icon(:face)
     material_icon(:face, class: 'one-in-your-own-css and-another')
     material_icon(:face, class: 'red', tag: 'span')
+
+valid options
+
+  `:size` a string for `font-size`, an integer for `px`, `1x` - `4x` for pre-defined sizes
