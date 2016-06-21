@@ -6,10 +6,11 @@ module MaterialIcons
       end
 
       # TO-DO:
-      # - stacking
+      # + stacking
       # - badge
       # - dark, light, color, inactive
       # - rotate: static/animated
+      # - default icon options (used in merge_default_icon_options, merge_default_icon_container_options)
 
       # http://codepen.io/johnstuif/pen/pvLgYp
       # http://codepen.io/joereza/pen/ufswb
