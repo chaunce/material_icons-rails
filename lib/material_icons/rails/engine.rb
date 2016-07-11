@@ -3,8 +3,8 @@ module MaterialIcons
     class Engine < ::Rails::Engine
       config.generators do |generators|
         generators.test_framework :rspec, :fixture => false
-        # generators.assets true
-        # generators.helper true
+        generators.assets true
+        generators.helper true
       end
     end
   end
